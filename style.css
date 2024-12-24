@@ -61,6 +61,8 @@ header img{
 }
 .grid figure img{
     width: 100%;
+    padding: 0 40px;
+    margin: 0 auto 30px;
 }
 
 .grid{
@@ -128,6 +130,7 @@ header img{
 footer{
     border-top: 1px solid #2E373A55;
     min-height: 100vh;
+    margin: 20px;
 }
 footer .content{
     width: min(1400px, 100vw);
@@ -223,4 +226,29 @@ footer .content{
 .autoShow{
     animation: autoShowAnimation both;
     animation-timeline: view(70% 5%); 
+}
+@keyframes autoShowAnimation {
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+.autoBlur{
+    animation: autoBlurAnimation linear both;
+    animation-timeline: view();
+}
+@keyframes autoBlurAnimation {
+    0%{
+        filter: blur(40px);
+    }
+    45%,55%{
+         filter: blur(0px);
+    }
+    100%{
+        filter: blur(40px);
+    }
 }
