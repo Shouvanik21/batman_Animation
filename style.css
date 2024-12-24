@@ -154,3 +154,28 @@ footer .content{
     grid-row: 1;
     grid-column: 5 / 7;
 }
+
+@media screen and (max-width:1023px) {
+    header img{
+        height: 2em;
+    }
+    .banner .content h1{
+        font-size: 12em;
+    }
+    .banner .content .right{
+        transform: none;
+    }
+    .grid-2 div:nth-child(1){
+        grid-row: 2;
+    }
+    .grid-2 div:nth-child(2){
+        grid-row: 6;
+    }
+    .grid-2 div:nth-child(3){
+        grid-row: 5;
+    }
+    .grid-3{
+        font-size: 5em;
+        line-height: 1em;
+    }
+}
