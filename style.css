@@ -179,3 +179,48 @@ footer .content{
         line-height: 1em;
     }
 }
+@media screen and (max-width: 1023px){
+    header img{
+        height: unset;
+        width: 100%;
+    }
+    .banner .content h1{
+        font-size: 7em;
+    }
+    .banner .content{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        overflow: hidden;
+    }
+    .grid-1 h2:nth-child(3){
+        font-size: 3em;
+    }
+    .grid{
+        display: block;
+    }
+    .grid-3{
+        font-size: 4em;
+        display: block;
+        margin-bottom: 100px;
+    }
+}
+.autoRotate{
+    animation: autoRotateAnimation;
+    animation-timeline: view();
+}
+@keyframes autoRotateAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.autoShow{
+    animation: autoShowAnimation both;
+    animation-timeline: view(70% 5%); 
+}
