@@ -139,8 +139,9 @@ header img{
     margin: 0px auto 30px;
 }
 .grid-2{
+    color: whitesmoke;
     --row: 8;
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
 .grid-2 div:nth-child(1){
     grid-column: 1 / 4;
@@ -206,7 +207,7 @@ footer .content{
 }
 #candy {
     width: 80%;
-    margin: 90px auto 0;
+    margin: 100px auto 0;
   }
 
 @media screen and (max-width: 1023px){
@@ -283,6 +284,7 @@ footer .content{
 @keyframes autoShowAnimation{
     from{
         opacity: 0;
+        filter: blur(100px);
         transform: translateY(200px) scale(0.3);
     }to{
         opacity: 1;
