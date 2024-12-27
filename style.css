@@ -204,6 +204,10 @@ footer .content{
     grid-row: 1;
     grid-column: 5 / 7;
 }
+#candy {
+    width: 80%;
+    margin: 90px auto 0;
+  }
 
 @media screen and (max-width: 1023px){
     header img{
