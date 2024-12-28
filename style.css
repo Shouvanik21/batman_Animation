@@ -45,12 +45,14 @@ header img{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    /* position: relative; */
 }
 .banner .content h1{
     font-size: 17em;
 }
 .banner .content .right{
     text-align: right;
+    padding-top: 55px;
     transform: translateY(-30px);
 }
 .banner .content .right h2{
@@ -100,12 +102,12 @@ header img{
     height: 80%;
     width: 80%;
 }
-/* @supports (-webkit-text-stroke: 1px black) {
+@supports (-webkit-text-stroke: 1px black) {
     .first {
       -webkit-text-stroke: 0.8px red;
       -webkit-text-fill-color: transparent;
     }
-} */
+}
 /* #rotate-img{
     height: 580px;
     width: 580px;
@@ -120,6 +122,7 @@ header img{
     grid-template-rows: repeat(var(--row), 100px);
     margin-top: 50px;
     gap: 50px;
+    /* font-weight: 600; */
 }
 .grid-1 figure:nth-child(1){
     grid-column: 2 / 6;
