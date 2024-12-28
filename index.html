@@ -29,8 +29,9 @@
                     </p>
                 </div>
                 <div class="image">
-                    <img src="./images/batman.png" alt="🦇" class="bt-img">
+                    <img src="./images/batman.png" alt="🦇" id="hover-image" class="bt-img">
                 </div>
+                <audio id="hover-audio" src="./starboy.mp3" preload="auto"></audio>
             </div>
         </section>
         <section class="about">
@@ -73,6 +74,9 @@
                 </figure>
             </div> -->
         </section>
+        <div class="hr">
+            <hr>
+        </div>
         <section class="grid grid-3">
             <div class="autoBlur">JUSTICE</div>
             <div class="autoBlur">JUSTICE</div>
@@ -103,5 +107,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        const image = document.getElementById('hover-image');
+        const audio = document.getElementById('hover-audio');
+
+        // Play the music when hovering over the image
+        image.addEventListener('mouseover', () => {
+        audio.currentTime = 0; // Reset the music to the start
+        audio.play();
+        });
+
+        // Pause the music when the mouse leaves the image
+        image.addEventListener('mouseleave', () => {
+        audio.pause();
+    });
+    </script>
 </body>
 </html>
