@@ -96,18 +96,24 @@ header img{
     color: whitesmoke;
  }
 .one{
+    /* color: red;
+    text-shadow: 
+    -2px -2px 0 white, 
+     2px -2px 0 white, 
+    -2px  2px 0 white, 
+     2px  2px 0 white; */
     position: relative;
 }
 .bt-pic3{
     height: 80%;
     width: 80%;
 }
-@supports (-webkit-text-stroke: 1px black) {
+/* @supports (-webkit-text-stroke: 1px black) {
     .first {
       -webkit-text-stroke: 0.8px red;
       -webkit-text-fill-color: transparent;
     }
-}
+} */
 /* #rotate-img{
     height: 580px;
     width: 580px;
