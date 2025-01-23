@@ -80,6 +80,7 @@ header img{
 }
 .banner .image img:hover{
     height: 140%;
+    cursor: crosshair;
 }
 /* .bt-img{
     background: none;
@@ -345,4 +346,4 @@ footer .content{
 ::-webkit-scrollbar-thumb {
     background: red;
     border-radius: 4px;
-  }
+}
