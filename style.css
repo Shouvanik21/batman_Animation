@@ -136,7 +136,7 @@ header img{
     --row: 2;
 }
 .grid-1 figure img{
-    height: 30vh;
+    height: 250px;
     width: 10vw;
 }
 .grid figure img{
