@@ -80,6 +80,7 @@ header img{
 .banner .image img:hover{
     height: 140%;
     cursor: crosshair;
+    filter: drop-shadow(0px 10px 10px whitesmoke) drop-shadow(0px 0px 15px whitesmoke);
 }
 /* .bt-img{
     background: none;
