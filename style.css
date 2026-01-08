@@ -127,7 +127,6 @@ header img{
     grid-template-rows: repeat(var(--row), 100px);
     margin-top: 50px;
     gap: 50px;
-    /* font-weight: 600; */
 }
 .grid figure img{
     width: 100%;
